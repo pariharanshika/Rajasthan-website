@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
+  
+<body>
+    <div id="menu" class="fas fa-bar"></div>
+    <header class="header">
+        <nav role="navigation">
+
+            <div class="logo"><h1 class=" animated infinite heartBeat"> KHAMMA GHANI</h1></div>
+            
+         </nav>
+
+    <section class="contact">
+        <h1>Contact <span>Us</span></h1>
+        <hr>
+        
+        <div class="contact-form">
+
+            <form action="contact_process.php" method="post">
+                <input type="text" name="myname" placeholder="Enter Name" required>
+                <input type="email" name="email" placeholder="Enter E-mail" required>
+                <input type="text" name="phone" placeholder="Enter Phone number" required>
+                <input type="text" name="subject" placeholder="What brings you here?" required>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Submit" ONCLICK="alert('Thank you! \nYour response was submitted')" class="submit-btn">
+            </form>
+        </div>
+
+    </section>

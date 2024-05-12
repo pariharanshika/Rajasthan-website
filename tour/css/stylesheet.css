@@ -1,0 +1,123 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*body {
+    overflow: hidden; /* Hide scrollbars 
+  }*/
+
+/*section{
+    width: 100%; height: 100vh;
+    /*ubackgrond-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/Rajasthan-Combination-1920-X-605.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/
+
+
+nav{
+    width: 100%;height: 15vh;
+    background:rgba(0,0,0,0.2) ;
+    color: white;display: flex;justify-content: space-between;
+    align-items: center;text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;text-align: center;
+
+
+}
+nav .menu{
+    width: 40%;
+    display: flex; justify-content : space-around;
+    padding: 5%;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;color: white;
+    justify-content: space-around;
+    font-size: bold;
+}
+nav .menu a:  first-child{
+    color: green;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;color: white;
+}
+
+section{
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+section h3{
+    font-size: 35px;font-weight: 200;letter-spacing: 3px;
+text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    
+    font-size: 25px;
+    /*color: #eee;*/
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration:none ;
+    letter-spacing: 1px;
+    transition: all  .5s ease;
+}
+section .btnone{
+/*background: blue;*/
+background:#fff;
+color: #000;
+}
+#slider{
+    width: 100%;
+}
+
+   .btnone:hover{
+    background:#00b894;
+    color: honeydew;
+   }
+
+  
+.change_content:after{
+    content:'' ;
+    animation:changetext 10s infinite linear ;
+    color: green;
+    font-size: 4rem;
+}
+@keyframes changetext{
+     0%{content:"Jodhpur";}
+     20%{content:"Jaipur";}
+     35%{content:"Udaipur";}
+     55%{content:"Ajmer";}
+     60%{content:"Chittorgarh";}
+     80%{content: "Bikaner";}
+     100%{content: "Mount Abu";}
+}
